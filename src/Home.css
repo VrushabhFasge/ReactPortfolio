@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap");
+
+.devImage {
+  text-align: center;
+}
+
+.devImage img {
+  max-width: 500px;
+  max-height: 500px;
+  text-align: center;
+}
+
+.Technologies {
+  font-family: Sora, sans-serif;
+  background-color: #bdbeda;
+  padding: 0.3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: #242584;
+  margin-bottom: 1rem;
+}
+.Technologies h3,
+.Projects h3 {
+  font-weight: bolder !important;
+  font-size: 20px;
+}
+
+.Projects {
+  font-family: Sora, sans-serif;
+  background-color: #bdbeda;
+  padding: 0.3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: #242584;
+  margin-bottom: 1rem;
+}
+
+.Projects ul {
+  list-style: none;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+.Projects ul li {
+  display: inline;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border: 5px solid #f64c72;
+  background-color: #f64c72;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+.Projects ul li :link {
+  text-align: center;
+
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.gotoProject {
+  color: white;
+}
+.Projects p > p {
+  margin-top: 0px;
+}

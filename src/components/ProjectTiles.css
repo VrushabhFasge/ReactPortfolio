@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+
+.projectTiles {
+  box-sizing: border-box;
+  font-family: Sora;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.projectTiles:nth-child(odd) {
+  background-color: #bdbeda;
+  padding-bottom: 15px;
+}
+.projectTiles .projectName {
+  text-transform: uppercase;
+}
+
+.projectTiles .liveLink {
+  background-color: #f64c72;
+  margin: 10px;
+  padding: 5px;
+  border-style: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.projectTiles .sourceCode {
+  background-color: #242582;
+  margin: 10px;
+  padding: 5px;
+  border-style: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.projectName {
+  font-family: "Koulen", cursive;
+  word-wrap: 3px;
+  padding: 0.2rem;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.projectDate {
+  margin-bottom: 20px;
+}
